@@ -1,0 +1,52 @@
+body{
+    background-color: #193498;
+    text-align: center;
+}
+
+.heading{
+    font-family: 'Fruktur', cursive;
+    font-size: 3rem;
+    color: #FBFBFB;
+    text-shadow: 5px 0 black;
+   
+    
+    
+}
+
+.status{
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 20px;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+
+}
+
+.blue{
+    background-color: blue;
+}
+
+.press{
+    opacity: 0.5;
+}
+
+.gameOver{
+    background-color: red;
+}
