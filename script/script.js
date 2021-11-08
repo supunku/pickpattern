@@ -19,6 +19,12 @@ var gameLevel = 0;
 
 //Listen to keypress event
 
+$(document).touchstart(function(){
+    if(!gameStatus)
+    gameStatus= true;
+    nextPattern();
+})
+
 $(document).keypress(function(){
     if(!gameStatus)
     gameStatus = true;
