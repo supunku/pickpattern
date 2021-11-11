@@ -26,6 +26,11 @@ $(document).keypress(function(){
     nextPattern();
 })
 
+document.getElementsByClassName(".btn").addEventListener("touchstart",(e)=>{
+    if(!gameStatus)
+    gameStatus = true;
+    nextPattern(e);
+})
 
 //Play the sound
 
